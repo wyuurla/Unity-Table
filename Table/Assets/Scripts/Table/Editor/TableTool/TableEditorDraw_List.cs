@@ -14,8 +14,8 @@ public class TableEditorDraw_List : TableEditorDraw
     protected Vector2 m_scrollbar = Vector2.zero;
     protected string m_className;
     public TableFileBake select; 
-    protected string m_strKeyName = "_KEY";
-    protected string m_strNeedBake = "_Y";
+    protected string m_strKeyName = "-K";
+    protected string m_strNeedBake = "-S";
 
     public TableEditorDraw_List(TableTool _tool) : base(_tool)
     {
