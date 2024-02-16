@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * @brief TableManager
+ * @detail 테이블을 관리하는 클래스.
+ * @date 2024-02-15
+ * @version 1.0.0
+ * @author kij
+ */
 public class TableManager : ClassSingleton<TableManager>
 {   
     private Dictionary<System.Type, ITable> m_tableList;

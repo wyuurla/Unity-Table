@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * @brief Table
+ * @detail Record를 리스트로 관리하는 테이블 클래스
+ * @date 2024-02-15
+ * @version 1.0.0
+ * @author kij
+ */
 public class Table<T> : ITable where T : Record, new ()
 {
     public class CompareRecord : IComparer<T>
