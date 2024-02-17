@@ -180,8 +180,7 @@ public class TableBake
         _sb.Append("\n");
         _sb.AppendFormat("public class {0}Table : Table<{0}Record> \n", _className);
         _sb.Append("{\n");
-        _sb.AppendFormat("\tstatic {0}Table m_instance;\n", _className);
-        _sb.AppendFormat("\tpublic static {0}Table Instance {{ get {{ if(null == m_instance) {{return TableManager.Instance.GetTable<{0}Table>();}} return m_instance; }} }} \n", _className);        
+        _sb.AppendFormat("\tpublic static {0}Table Instance {{ get {{ return TableManager.Instance.GetTable<{0}Table>(); }} }} \n", _className);        
         _sb.Append("\n}");
 
         if (FileUtil.Save(_path, _sb.ToString()) == false)
