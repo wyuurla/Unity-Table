@@ -12,7 +12,7 @@ public class TableCreate_Game : TableCreate
 
     public override Dictionary<string, Dictionary<string, List<string>>> CreateEditorTableList()
     {
-        Dictionary<string, Dictionary<string, List<string>>> _list = new Dictionary<string, Dictionary<string, List<string>>>();
+        Dictionary<string, Dictionary<string, List<string>>> _list = new Dictionary<string, Dictionary<string, List<string>>>();       
         return _list;
     }
 }
