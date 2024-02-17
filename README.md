@@ -3,3 +3,6 @@
 
 UML
 ![image](https://github.com/wyuurla/Unity-Table/assets/37171461/9d2851e6-8362-4ab1-af05-b3e07a118fbd)
+
+스트링 테이블 사용하기 
+https://youtu.be/g1_6cis9K-c?si=VCiryUWu_Gi1skxv
