@@ -41,8 +41,8 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
                 if (null == m_instance)
                 {
                     GameObject _create = new GameObject(typeof(T).Name);
-                    DontDestroyOnLoad(_create);
                     m_instance = _create.AddComponent<T>();
+                    DontDestroyOnLoad(_create);
                 }
             }
 
